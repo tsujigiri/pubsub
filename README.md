@@ -13,6 +13,6 @@ and `bar@pong` receives it:
 (bar@pong)1> pubsub:start().
 (bar@pong)2> pubsub:subscribe(world).
 (foo@ping)2> pubsub:publish("Hello!", world).
-(bar@pong)3> pubsub:recv(stuff).
+(bar@pong)3> pubsub:recv(world).
 "Hello!"
 ```
