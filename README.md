@@ -1,6 +1,6 @@
 # PubSub
 
-Distributed PubSub
+distributed pub/sub
 
 ## Usage
 
